@@ -240,7 +240,7 @@ if __name__ == '__main__':
     )
     cur = con.cursor()
 
-    application = Application.builder().token('5657814891:AAE1mE2-WMfl8_gvdmhYcufd7W0tvrbeSeI').build()
+    application = Application.builder().token('TOKEN').build()
     
     start_handler = CommandHandler('start', start)
     run_handler = CommandHandler('busca', run)
